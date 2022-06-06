@@ -1,0 +1,19 @@
+body{
+    background-color: #3f56d7;
+    color: white;
+    padding: 1.5rem;
+    font-family: sans-serif;
+}
+main img{
+    height: 40vh;
+}
+button{
+    border: none;
+    background-color: palegreen;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.arrow{
+    height: 2vh;
+}
