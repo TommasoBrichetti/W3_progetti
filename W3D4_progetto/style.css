@@ -1,0 +1,21 @@
+body{
+    color: white;
+    background-color: orangered;
+    font-size: 2rem;
+    text-align: center;
+    background-image: url(cactus-png.webp);
+    background-position-y: 19vh;
+    background-position-x: center;
+    background-size: 20%;
+    background-repeat:no-repeat;
+    
+}
+input{
+    background-color: khaki;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
