@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    margin: 10vh;
+    color:blue;
+}
+.calcolatrice{
+    width: 25%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+.calcolatrice .big{
+    grid-column: 1/5;
+}
+.calcolatrice #schermino{
+    border: 2px solid blue;
+    display: block;
+    height: 10vh;
+}
+.calcolatrice input{
+    border:none;
+    background-color: rgb(183, 181, 181);
+    color:blue;
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 2px;
+}
