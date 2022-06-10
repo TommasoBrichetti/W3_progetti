@@ -11,6 +11,8 @@ function cancella(){
 }
 function esegui(){
     var risultato = eval(document.getElementById("schermino").value);
-    document.getElementById("schermino").value = risultato;
-    document.getElementById("schermino").innerHTML = risultato;
+    if(risultato!=undefined){
+        document.getElementById("schermino").value = risultato;
+        document.getElementById("schermino").innerHTML = risultato;
+    }
 }
